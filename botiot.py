@@ -14,6 +14,7 @@ def start_command(message):
 @bot.message_handler(commands=['check'])    
 def check_message(message):
     m = ''
+    
     while True: 
         site = ''
         fp = urllib.request.urlopen(site)
